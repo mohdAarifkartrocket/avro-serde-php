@@ -6,7 +6,6 @@
     "confluent-platform",
     "confluent",
     "avro",
-    "schema-registry",
     "schema-evolution",
     "kafka",
     "serialization",
