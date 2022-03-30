@@ -1,6 +1,7 @@
 {
   "name": "flix-tech/avro-serde-php",
   "description": "A library to serialize and deserialize Avro records making use of the confluent schema registry",
+  "minimum-stability": "dev",
   "keywords": [
     "confluent-platform",
     "confluent",
