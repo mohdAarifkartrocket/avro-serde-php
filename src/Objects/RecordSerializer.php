@@ -27,8 +27,8 @@ use function Widmogrod\Functional\valueOf;
 
 class RecordSerializer
 {
-    public const OPTION_REGISTER_MISSING_SCHEMAS = 'register_missing_schemas';
-    public const OPTION_REGISTER_MISSING_SUBJECTS = 'register_missing_subjects';
+    const OPTION_REGISTER_MISSING_SCHEMAS = 'register_missing_schemas';
+    const OPTION_REGISTER_MISSING_SUBJECTS = 'register_missing_subjects';
 
     /**
      * @var Registry

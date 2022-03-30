@@ -24,5 +24,5 @@ interface SchemaResolverInterface
      *
      * @param mixed $record
      */
-    public function keySchemaFor($record): ?AvroSchema;
+    public function keySchemaFor($record);
 }

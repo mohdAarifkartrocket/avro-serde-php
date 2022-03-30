@@ -6,26 +6,26 @@ namespace FlixTech\AvroSerializer\Objects\Schema;
 
 class TypeName
 {
-    public const RECORD = 'record';
-    public const NULL = 'null';
-    public const BOOLEAN = 'boolean';
-    public const INT = 'int';
-    public const LONG = 'long';
-    public const FLOAT = 'float';
-    public const DOUBLE = 'double';
-    public const BYTES = 'bytes';
-    public const STRING = 'string';
-    public const ARRAY = 'array';
-    public const MAP = 'map';
-    public const ENUM = 'enum';
-    public const FIXED = 'fixed';
-    public const DATE = 'date';
-    public const DURATION = 'duration';
-    public const LOCAL_TIMESTAMP_MICROS = 'local-timestamp-micros';
-    public const LOCAL_TIMESTAMP_MILLIS = 'local-timestamp-millis';
-    public const TIME_MICROS = 'time-micros';
-    public const TIME_MILLIS = 'time-millis';
-    public const TIMESTAMP_MICROS = 'timestamp-micros';
-    public const TIMESTAMP_MILLIS = 'timestamp-millis';
-    public const UUID = 'uuid';
+    const RECORD = 'record';
+    const NULL = 'null';
+    const BOOLEAN = 'boolean';
+    const INT = 'int';
+    const LONG = 'long';
+    const FLOAT = 'float';
+    const DOUBLE = 'double';
+    const BYTES = 'bytes';
+    const STRING = 'string';
+    const ARRAY = 'array';
+    const MAP = 'map';
+    const ENUM = 'enum';
+    const FIXED = 'fixed';
+    const DATE = 'date';
+    const DURATION = 'duration';
+    const LOCAL_TIMESTAMP_MICROS = 'local-timestamp-micros';
+    const LOCAL_TIMESTAMP_MILLIS = 'local-timestamp-millis';
+    const TIME_MICROS = 'time-micros';
+    const TIME_MILLIS = 'time-millis';
+    const TIMESTAMP_MICROS = 'timestamp-micros';
+    const TIMESTAMP_MILLIS = 'timestamp-millis';
+    const UUID = 'uuid';
 }

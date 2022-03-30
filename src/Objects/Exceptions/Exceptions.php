@@ -6,8 +6,8 @@ namespace FlixTech\AvroSerializer\Objects\Exceptions;
 
 final class Exceptions
 {
-    public const ERROR_ENCODING = 501;
-    public const ERROR_DECODING = 502;
+    const ERROR_ENCODING = 501;
+    const ERROR_DECODING = 502;
 
     /**
      * @param mixed $record

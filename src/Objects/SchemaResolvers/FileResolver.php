@@ -48,7 +48,7 @@ class FileResolver implements SchemaResolverInterface
      *
      * @throws \AvroSchemaParseException
      */
-    public function keySchemaFor($record): ?AvroSchema
+    public function keySchemaFor($record)
     {
         $inflectedFileName = \call_user_func($this->inflector, $record, true);
         Assert::that($inflectedFileName)->string()->notEmpty();

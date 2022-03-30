@@ -29,7 +29,7 @@ class DefinitionInterfaceResolver implements SchemaResolverInterface
      *
      * @throws \AvroSchemaParseException
      */
-    public function keySchemaFor($record): ?AvroSchema
+    public function keySchemaFor($record)
     {
         $this->guardRecordHasDefinition($record);
 

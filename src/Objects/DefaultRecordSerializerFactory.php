@@ -19,7 +19,7 @@ final class DefaultRecordSerializerFactory
     public static function get(
         string $schemaRegistryURL,
         array $guzzleClientOptions = [],
-        ?CacheAdapter $adapter = null
+        $adapter = null
     ): RecordSerializer {
         Assert::that($schemaRegistryURL)->url();
 
